@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Registrasi-peserta/frontend/src/app/page.js"],"sourcesContent":["export default function HomePage() {\r\n  return (\r\n    <section className=\"rounded-2xl bg-white p-8 shadow-sm ring-1 ring-slate-200\">\r\n      <h2 className=\"mb-3 text-3xl font-bold text-slate-900\">\r\n        Aplikasi CRUD Peserta\r\n      </h2>\r\n      <p className=\"text-slate-600\">\r\n        Frontend ini dibuat dengan Next.js App Router dan Tailwind CSS, lalu\r\n        terhubung ke backend Node.js + PostgreSQL.\r\n      </p>\r\n    </section>\r\n  );\r\n}"],"names":["HomePage","className"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBACE,8OAAC;QAAQC,WAAU;;0BACjB,8OAAC;gBAAGA,WAAU;0BAAyC;;;;;;0BAGvD,8OAAC;gBAAEA,WAAU;0BAAiB;;;;;;;;;;;;AAMpC"}}]
+}
