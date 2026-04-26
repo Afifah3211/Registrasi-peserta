@@ -67,7 +67,7 @@ export default function PesertaForm({ initialData = null, isEdit = false }) {
           .catch((error) => alert(error.message));
       }
     }
-  }, [initialData]);
+  }, [initialData ? initialData.id : null]);
 
   async function handleProvinsiChange(e) {
     const idProvinsi = e.target.value;
