@@ -14,6 +14,7 @@ const getAllPeserta = async () => {
  ps.foto,
  ps.idkabko,
  k.nama AS nama_kabko,
+ k.id_provinsi,
  pr.nama AS nama_provinsi
  FROM peserta ps
  LEFT JOIN kabko k ON ps.idkabko = k.id
@@ -38,6 +39,7 @@ const getPesertaById = async (id) => {
  ps.foto,
  ps.idkabko,
  k.nama AS nama_kabko,
+ k.id_provinsi,
  pr.nama AS nama_provinsi
  FROM peserta ps
  LEFT JOIN kabko k ON ps.idkabko = k.id

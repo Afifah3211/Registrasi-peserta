@@ -19,13 +19,13 @@ const getProvinsiById = async (req, res) => {
  }
 };
 const createProvinsi = async (req, res) => {
- try {
- const data = await provinsiModel.createProvinsi(req.body.nama);
- res.status(201).json(data);
- } catch (error) {
- res.status(500).json({ message: error.message });
- }
-};
+  try {
+    const data = await provinsiModel.createProvinsi(req.body.nama);
+    res.status(201).json(data); // Pindahkan ke dalam try
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  } // Tutup catch
+}; // Tutup fungsi
 const updateProvinsi = async (req, res) => {
  try {
  const data = await provinsiModel.updateProvinsi(req.params.id, req.body.nama);
