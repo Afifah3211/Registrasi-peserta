@@ -1,6 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/peserta/detail/[id]/page": "app/peserta/detail/[id]/page.js",
-  "/peserta/edit/[id]/page": "app/peserta/edit/[id]/page.js",
-  "/peserta/page": "app/peserta/page.js"
-}
