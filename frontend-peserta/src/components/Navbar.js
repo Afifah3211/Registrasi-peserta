@@ -19,6 +19,18 @@ export default function Navbar() {
             Peserta
           </Link>
           <Link
+            href="/provinsi"
+            className="rounded-lg px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100"
+          >
+            Provinsi
+          </Link>
+          <Link
+            href="/kabko"
+            className="rounded-lg px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100"
+          >
+            Kab/Kota
+          </Link>
+          <Link
             href="/peserta/tambah"
             className="rounded-lg bg-slate-900 px-3 py-2 text-sm font-medium text-white hover:bg-slate-700"
           >
