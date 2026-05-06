@@ -14,8 +14,7 @@ app.use('/provinsi', provinsiRoutes);
 app.use('/kabko', kabkoRoutes);
 app.use('/peserta', pesertaRoutes);
 app.use('/storage', express.static('storage'));
-const PORT = 3001; // Ubah paksa ke 3001 dulu untuk tes
-app.listen(PORT, () => {
-  console.log(`Server berjalan di http://localhost:${PORT}`);
+const PORT = 3001; //
+app.listen(3001, '0.0.0.0', () => {
+  console.log('Server running on port 3001');
 });
-
